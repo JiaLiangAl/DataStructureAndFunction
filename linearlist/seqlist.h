@@ -1,4 +1,7 @@
+#pragma once
+#ifndef ListSize
 #define ListSize 100
+#endif
 typedef int DataType;
 typedef struct 
 {

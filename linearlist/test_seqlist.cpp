@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "seqlist.h"
-
 typedef int DataType;
+#define ListSize 200
+#include "seqlist.h"
 
 void MergeList(SeqList A,SeqList B,SeqList *C);
 int main(int argc,char** argv)
